@@ -1,0 +1,454 @@
+.app {
+  .container {
+    .hero-section {
+      padding-top: 3em;
+      height: fit-content;
+      background-color: rgb(223, 58, 3);
+      .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Bear-hug";
+        color: white;
+
+        .title {
+          font-size: 4em;
+        }
+
+        .sub {
+          margin-top: 5px;
+          font-size: 1.5em;
+        }
+      }
+
+      .hero {
+        color: white;
+        width: 1250px;
+        margin: auto;
+        margin-top: 6em;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+
+        .box {
+          img {
+            width: 400px;
+          }
+        }
+
+        .text {
+          margin-top: 4em;
+          width: 40%;
+          font-size: 2em;
+          font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+          .desc {
+            width: 95%;
+            text-align: center;
+            font-weight: bold;
+
+            span {
+              color: rgb(226, 179, 8);
+              font-family: "Bear-hug";
+              letter-spacing: 1px;
+              font-size: 1.2em;
+            }
+          }
+
+          .links {
+            margin-top: 1em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+
+            .dex {
+              width: 190px;
+              height: 60px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border: 4px solid black;
+              color: white;
+              font-family: "Montserrat";
+              font-size: 21px;
+              font-weight: bold;
+              background-color: rgb(226, 179, 8);
+              transform: rotate(8deg);
+            }
+
+            .socials {
+              display: flex;
+              gap: 15px;
+              align-items: center;
+
+              a {
+                width: 50px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: black;
+                color: white;
+                font-size: 20px;
+
+                &:first-child {
+                  transform: rotate(-10deg);
+                }
+
+                &:nth-child(2) {
+                  transform: rotate(10deg);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    marquee {
+      height: 40px;
+      font-size: 1.5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      background-color: rgb(226, 179, 8);
+      word-spacing: 10px;
+    }
+
+    .tokenomics {
+      background-color: rgb(14, 14, 14);
+      color: white;
+      padding-top: 6em;
+      padding-bottom: 3em;
+
+      .wrapper {
+        max-width: 1100px;
+        margin: auto;
+
+        .head {
+          text-align: center;
+          font-size: 5em;
+          letter-spacing: 2px;
+          color: rgb(226, 179, 8);
+          font-family: "Bear-hug";
+        }
+
+        .info {
+          width: 60%;
+          margin: auto;
+          letter-spacing: 3px;
+          word-spacing: 5px;
+          text-align: center;
+          margin-top: 1em;
+          font-size: 1.6em;
+          font-family: "Bear-hug";
+
+          span {
+            color: rgb(223, 58, 3);
+          }
+        }
+
+        .section {
+          margin-top: 5em;
+          display: flex;
+          justify-content: space-around;
+          .nomics {
+            margin-top: 7em;
+
+            .supply,
+            .address {
+              width: 500px;
+              height: 100px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+              font-size: 1.6em;
+              font-family: "Bear-hug";
+              letter-spacing: 2px;
+              background-color: rgb(226, 179, 8);
+              border: 5px solid black;
+              word-wrap: break-word;
+              color: black;
+            }
+
+            .address {
+              span {
+                font-size: 13px;
+              }
+            }
+          }
+        }
+
+        .buy-dex {
+          width: 300px;
+          margin-top: 2em;
+          height: 80px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          font-size: 1.6em;
+          font-family: "Bear-hug";
+          letter-spacing: 2px;
+          background-color: rgb(223, 58, 3);
+          border: 5px solid black;
+
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+
+    .fun-gif {
+      padding: 5em 0;
+      width: 100%;
+      height: 100vh;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .footer {
+      height: fit-content;
+      padding-top: 5em;
+      border-top: 5px solid black;
+      background-color: rgb(223, 58, 3);
+
+      .header {
+        text-align: center;
+        font-family: "Bear-hug";
+        font-size: 7em;
+      }
+
+      p {
+        text-align: center;
+        font-size: 1.7em;
+        margin-top: 10px;
+        font-family: "Bear-hug";
+      }
+
+      .links {
+        margin-top: 3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+
+        .socials {
+          display: flex;
+          gap: 2em;
+          align-items: center;
+
+          a {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+
+            &:first-child {
+              transform: rotate(-10deg);
+            }
+
+            &:nth-child(2) {
+              transform: rotate(10deg);
+            }
+          }
+        }
+      }
+
+      .gif2 {
+        margin-top: 3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 400px;
+        }
+      }
+
+      .logo {
+        font-size: 4em;
+        text-align: right;
+        margin-right: 1em;
+        font-family: "Bear-hug";
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    .container {
+      .hero-section {
+        padding-top: 3em;
+
+        .header {
+          .title {
+            font-size: 2.4em;
+            text-align: center;
+          }
+
+          .sub {
+            font-family: "Montserrat";
+            margin-top: 10px;
+            font-size: 16px;
+          }
+        }
+
+        .hero {
+          color: white;
+          width: 90%;
+          margin: auto;
+          margin-top: 5em;
+          display: flex;
+          flex-direction: column-reverse;
+          align-items: center;
+
+          .box {
+            img {
+              width: 100%;
+            }
+          }
+
+          .text {
+            margin-top: 0;
+            width: 100%;
+            font-size: 1.5em;
+
+            .desc {
+              width: 100%;
+              font-weight: 500;
+
+              span {
+                font-size: 1.2em;
+              }
+            }
+
+            .links {
+              margin-top: 2em;
+              display: flex;
+              flex-direction: column;
+              gap: 1.5em;
+
+              .dex {
+                width: 45%;
+              }
+
+              .socials {
+                display: flex;
+                gap: 1em;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+
+      .tokenomics {
+        padding-top: 4em;
+        height: fit-content;
+
+        .wrapper {
+          max-width: 90%;
+          margin: auto;
+
+          .head {
+            font-size: 2.6em;
+          }
+
+          .info {
+            width: 100%;
+            margin: auto;
+            letter-spacing: 0;
+            margin-top: 1em;
+            font-size: 1.3em;
+            font-family: "Montserrat";
+          }
+
+          .section {
+            margin-top: 5em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            img {
+              width: 100%;
+            }
+
+            .nomics {
+              margin-top: 4em;
+
+              .supply,
+              .address {
+                width: 100%;
+                font-size: 1.4em;
+              }
+
+              .address {
+                margin-top: 15px;
+              }
+            }
+          }
+
+          .buy-dex {
+            width: 60%;
+            margin: auto;
+            margin-top: 1em;
+            transform: rotate(10deg);
+          }
+        }
+      }
+
+      .fun-gif {
+        width: 100%;
+        height: 60vh;
+      }
+
+      .footer {
+        padding-top: 3em;
+
+        .header {
+          font-size: 2.5em;
+        }
+
+        p {
+          font-size: 1.3em;
+          margin-top: 10px;
+          font-family: "Montserrat";
+        }
+
+        .links {
+          margin-top: 2em;
+        }
+
+        .gif2 {
+          margin-top: 2em;
+
+          img {
+            width: 80%;
+          }
+        }
+
+        .logo {
+          font-size: 2.5em;
+          text-align: right;
+          margin-right: 10px;
+          font-family: "Bear-hug";
+        }
+      }
+    }
+  }
+}

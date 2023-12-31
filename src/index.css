@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+@font-face {
+  font-family: "Bear-hug";
+  src: url("./Fonts/bear-hug/Bear-Hug.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./Fonts//Montserrat//static/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-B";
+  src: url("./Fonts//Montserrat//static/Montserrat-Bold.ttf");
+}
