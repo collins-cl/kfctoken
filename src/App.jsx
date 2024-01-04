@@ -38,10 +38,10 @@ function App() {
                 </a>
 
                 <div className="socials">
-                  <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.x.com/kfc_token_sol" target="_blank" rel="noopener noreferrer">
                     X
                   </a>
-                  <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <a href="https://t.me/kentuckfriedchicken" target="_blank" rel="noopener noreferrer">
                     TG
                   </a>
                 </div>
@@ -112,10 +112,10 @@ function App() {
 
           <div className="links">
             <div className="socials">
-              <a href="http://" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.x.com/kfc_token_sol" target="_blank" rel="noopener noreferrer">
                 X
               </a>
-              <a href="http://" target="_blank" rel="noopener noreferrer">
+              <a href="https://t.me/kentuckfriedchicken" target="_blank" rel="noopener noreferrer">
                 TG
               </a>
             </div>
